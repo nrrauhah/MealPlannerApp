@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Meal Planner</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <h1>Smart Meal Planner</h1>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="suggest.html">Suggest Meal</a>
+        <a href="rec.html">My Recommendations</a>
+    </nav>
+
+    <div class="search-section">
+        <input type="text" id="searchInput" placeholder="Enter meal name">
+        <button onclick="searchMeal()">Search</button>
+        <button onclick="getVegetarian()">Vegetarian Meals</button>
+        <button onclick="getRandom()">Surprise Me</button>
+    </div>
+
+    <div id="mealResult"></div>
+
+    <script src="../js/display.js"></script>
+    <script src="../js/save.js"></script>
+    <script src="../js/search.js"></script>
+    <script src="../js/getran.js"></script>
+    <script src="../js/getveg.js"></script>
+</body>
+</html>

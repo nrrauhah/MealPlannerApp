@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meal Suggestion</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <h1>Choose Meal Based on Preference</h1>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="suggest.html">Suggest Meal</a>
+        <a href="rec.html">My Recommendations</a>
+    </nav>
+
+    <div class="search-section">
+
+        <h2>Select Category</h2>
+
+        <select id="categorySelect">
+            <option value="Beef">Beef</option>
+            <option value="Chicken">Chicken</option>
+            <option value="Seafood">Seafood</option>
+            <option value="Vegetarian">Vegetarian</option>
+            <option value="Dessert">Dessert</option>
+        </select>
+
+        <br><br>
+
+        <input type="number" id="maxCalories" placeholder="Max Calories">
+
+        <br><br>
+
+        <button onclick="suggestMeal()">Suggest Meal</button>
+
+    </div>
+
+    <div id="mealResult"></div>
+
+    <!-- JS Files -->
+    <script src="../js/display.js"></script>
+    <script src="../js/save.js"></script>
+    <script src="../js/suggest.js"></script>
+
+</body>
+</html>

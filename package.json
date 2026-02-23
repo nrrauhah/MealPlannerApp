@@ -1,0 +1,14 @@
+{
+  "name": "mealplannerapp",
+  "version": "1.0.0",
+  "description": "Smart Meal Planner App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^28.0.0"
+  }
+}
